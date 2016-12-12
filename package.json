@@ -1,6 +1,6 @@
 {
   "name": "modinst",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A highly experimental alternative module installer",
   "preferGlobal": true,
   "bin": {
