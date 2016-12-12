@@ -21,23 +21,28 @@ A highly experimental alternative module installer
 
 ## Installation
 
-Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
-
-Then in the terminal, run:
+Download and compile the [Symlinks Just Work](https://github.com/rstacruz/pnpm/issues/496#issuecomment-266301933) branch of node, if you haven't already.
 
 ```sh
-npm install modinst --save
+git clone --branch v7.2.0-sjw https://github.com/zkochan/node
 ```
+
+You can install this module normally using `npm`.
+
+```sh
+npm install --global modinst
+```
+
+## Usage
+
+For now, I will just provide an example:
+
+TODO: embed asciinema demo
+
 
 ## Tests
 
-First clone this repository to get the source code. Then in the topmost repo
-directory run:
-
-```sh
-npm install
-npm test
-```
+Tests presuppose that you know what to expect. I really don't know what to expect. Things could change dramatically.
 
 <!-- LICENSE/ -->
 

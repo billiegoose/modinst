@@ -2,13 +2,40 @@
   "name": "modinst",
   "version": "0.0.0",
   "description": "A highly experimental alternative module installer",
-  "main": "modinst.js",
+  "preferGlobal": true,  
+  "bin": {
+    "mi": "lib/cli.js"
+  },
+  "main": "index.js",
   "scripts": {
-    "docs": "projectz && mos"
+    "docs": "projectz && mos",
+    "lint": "standard",
+    "test": "node lib/cli.js @wmhilton/log/1.x"
+  },  
+  "engines": {
+    "node": ">=7.0.0"
   },
   "keywords": [],
   "author": "William Hilton <wmhilton@gmail.com>",
   "license": "Unlicense",
   "maintainers": [],
-  "contributors": []
+  "contributors": [],
+  "dependencies": {
+    "ascii-tree": "^0.3.0",
+    "bottleneck": "^1.15.0",
+    "cli-columns": "^1.0.6",
+    "cmd-shim": "^2.0.2",
+    "decompress": "^4.0.0",
+    "nice-package": "^1.2.5",
+    "node-fetch": "1.6.0",
+    "observatory": "^1.0.0",
+    "registry-resolve": "^0.2.0",
+    "semver": "^5.3.0",
+    "sha": "2.0.1",
+    "shelljs": "0.7.3",
+    "watt": "3.3.0"
+  },
+  "devDependencies": {
+    "standard": "^8.0.0"
+  }
 }
