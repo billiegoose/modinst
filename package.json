@@ -1,0 +1,14 @@
+{
+  "name": "modinst",
+  "version": "0.0.0",
+  "description": "A highly experimental alternative module installer",
+  "main": "modinst.js",
+  "scripts": {
+    "docs": "projectz && mos"
+  },
+  "keywords": [],
+  "author": "William Hilton <wmhilton@gmail.com>",
+  "license": "Unlicense",
+  "maintainers": [],
+  "contributors": []
+}
