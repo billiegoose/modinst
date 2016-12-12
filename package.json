@@ -10,7 +10,7 @@
   "scripts": {
     "docs": "projectz && mos",
     "lint": "standard",
-    "test": "node lib/cli.js @wmhilton/log/1.x"
+    "test": "standard && node lib/cli.js @wmhilton/log/1.x"
   },
   "engines": {
     "node": ">=7.0.0"

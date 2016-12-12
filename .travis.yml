@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: wmhilton@gmail.com
+  api_key:
+    secure: OD48VdrCr44nCGCykU3Okan5VPzShfcJtYc+VzWuv4N4M/SAdYH063B5MwcXGpgAFeyCixcWbDd2eyvRDMGqyme5Sq0Exhj2SCjiDGeFBEMMXr7HEomvGzUymWMqdoTLWlyeadVfl4ND7ejCTK5Ax8MpoWurFwB5n/DAuX1VUE4kjEEQdZiHIycQdsycOx4EFBaF++Ts27G/IWX058jPVtquH5m3BKShOOMXRvFL3bXUqWgOJe+30MkzOzKK26Gyv34ql8kzKghwdTKbaxw6vEMYry2q7ThsEgteEg5dflc3egmgvRYslgMJAC1707nMtmKwHBtYAYqqq4agqqshgViFeTkYEj3WUHjaQjIEqu37YEwv418nS+2Mh5h2/2f+qfn2Q6StqAyhRqNsyA8LbtjAUJhAPfBbAkcUyXlJL29A719OBr6XdkeR+tZ3YjAGWrKojohmuJ16xnD9SHqAtmZyOzu9y9jrlX1a7L44bJUKN19OgBAlvZRjX0LUzZzK9nqmvW25NvgnuEmslkjIoYJY6dPv/rf0ouP9hkk2cwGe/0xo849EnzUJOLXyfk6GIKVbBBG9GPdtxK69AGjiTHdBeetp3uuDG6RSRrEYV7Smoup0flU95exuXBtzOGh6BFibb34eLafB3eOb3W7+gMSp+sm77GDjqQ4XDCAmO+g=
+  on:
+    node: node
+    tags: true
+    branch: master
+    repo: wmhilton/modinst
