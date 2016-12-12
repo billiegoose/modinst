@@ -2,7 +2,7 @@
   "name": "modinst",
   "version": "0.0.0",
   "description": "A highly experimental alternative module installer",
-  "preferGlobal": true,  
+  "preferGlobal": true,
   "bin": {
     "mi": "lib/cli.js"
   },
@@ -11,7 +11,7 @@
     "docs": "projectz && mos",
     "lint": "standard",
     "test": "node lib/cli.js @wmhilton/log/1.x"
-  },  
+  },
   "engines": {
     "node": ">=7.0.0"
   },
@@ -37,5 +37,13 @@
   },
   "devDependencies": {
     "standard": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmhilton/modinst.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmhilton/modinst/issues"
+  },
+  "homepage": "https://github.com/wmhilton/modinst#readme"
 }
