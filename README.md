@@ -21,12 +21,6 @@ A highly experimental alternative module installer
 
 ## Installation
 
-Download and compile the [Symlinks Just Work](https://github.com/rstacruz/pnpm/issues/496#issuecomment-266301933) branch of node, if you haven't already.
-
-```sh
-git clone --branch v7.2.0-sjw https://github.com/zkochan/node
-```
-
 You can install this module normally using `npm`.
 
 ```sh
@@ -34,6 +28,21 @@ npm install --global modinst
 ```
 
 ## Usage
+
+Download and compile the [Symlinks Just Work](https://github.com/rstacruz/pnpm/issues/496#issuecomment-266301933) branch of node, if you haven't already.
+
+```sh
+git clone --branch v7.2.0-sjw https://github.com/zkochan/node
+```
+
+Be sure to set your path and environment correctly to enable its features.
+
+```
+# ~/.bashrc
+# Note, I'm using git-bash on windows... adjust paths accordingly.
+export PATH="/c/NodeJSSourceCode/node/Release/:$HOME/.store/v1/node_modules/.bin:$PATH"
+export NODE_SUPPORT_SYMLINKS=1
+```
 
 For now, I will just provide an example:
 
